@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-10-12T15:28:47.313708" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\QAx\projects\robot-actions\tests">
+<suite id="s1-s1" name="Login" source="C:\QAx\projects\robot-actions\tests\login.robot">
+<test id="s1-s1-t1" name="Senha incorreta" line="10">
+<kw name="Start Browser" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-12T15:28:47.514943" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\robot-actions\\browser\\traces\\temp\\f0d7184e-b40e-436e-b71b-c00c412bda78"}</msg>
+<msg time="2025-10-12T15:28:47.533197" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${IS_HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.514351" elapsed="0.021191">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2025-10-12T15:28:47.535741" elapsed="0.000076"/>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.513862" elapsed="0.022078">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="Finish Browser" owner="base" type="TEARDOWN">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-10-12T15:28:47.555283" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>fullPage=true</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.536510" elapsed="0.019958">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.536255" elapsed="0.020382">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.513115" elapsed="0.043698">Setup failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper
+
+Also teardown failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</test>
+<test id="s1-s1-t2" name="Usuário não cadastrado" line="14">
+<kw name="Start Browser" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-12T15:28:47.577533" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\robot-actions\\browser\\traces\\temp\\c26f2a3b-7f57-4591-a89c-afce4dddd855"}</msg>
+<msg time="2025-10-12T15:28:47.595495" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${IS_HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.576831" elapsed="0.019927">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2025-10-12T15:28:47.596932" elapsed="0.000073"/>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.576579" elapsed="0.020524">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="Finish Browser" owner="base" type="TEARDOWN">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-10-12T15:28:47.616935" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>fullPage=true</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.597710" elapsed="0.020365">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.597455" elapsed="0.020857">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.576174" elapsed="0.042387">Setup failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper
+
+Also teardown failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</test>
+<test id="s1-s1-t3" name="Usuário deve ser obrigatório" line="18">
+<kw name="Start Browser" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-12T15:28:47.639003" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\robot-actions\\browser\\traces\\temp\\9ff59fa4-4d5a-4d8e-a596-2d3e8cb31a06"}</msg>
+<msg time="2025-10-12T15:28:47.656333" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${IS_HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.638420" elapsed="0.018969">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2025-10-12T15:28:47.657574" elapsed="0.000086"/>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.638120" elapsed="0.019664">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="Finish Browser" owner="base" type="TEARDOWN">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-10-12T15:28:47.677566" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>fullPage=true</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.658641" elapsed="0.020135">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.658268" elapsed="0.020730">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.637686" elapsed="0.041468">Setup failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper
+
+Also teardown failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</test>
+<test id="s1-s1-t4" name="Senha deve ser obrigatória" line="22">
+<kw name="Start Browser" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-12T15:28:47.699819" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\robot-actions\\browser\\traces\\temp\\b285e527-c187-4f2d-84e1-0affd11aabe8"}</msg>
+<msg time="2025-10-12T15:28:47.717695" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${IS_HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.699097" elapsed="0.019705">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2025-10-12T15:28:47.718997" elapsed="0.000083"/>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.698626" elapsed="0.020569">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="Finish Browser" owner="base" type="TEARDOWN">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-10-12T15:28:47.738250" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>fullPage=true</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.719722" elapsed="0.019474">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.719487" elapsed="0.019955">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.698183" elapsed="0.041421">Setup failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper
+
+Also teardown failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</test>
+<test id="s1-s1-t5" name="Login com sucesso" line="26">
+<kw name="Start Browser" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-12T15:28:47.760707" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\robot-actions\\browser\\traces\\temp\\a9680b19-d67d-4346-8610-42b1329e7fec"}</msg>
+<msg time="2025-10-12T15:28:47.778071" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${IS_HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.760077" elapsed="0.019345">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2025-10-12T15:28:47.779670" elapsed="0.000102"/>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.759730" elapsed="0.020176">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<kw name="Finish Browser" owner="base" type="TEARDOWN">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-10-12T15:28:47.799210" level="FAIL">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<arg>fullPage=true</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.780614" elapsed="0.019524">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<status status="FAIL" start="2025-10-12T15:28:47.780274" elapsed="0.020026">
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</kw>
+<tag>smoke</tag>
+<status status="FAIL" start="2025-10-12T15:28:47.759260" elapsed="0.041199">Setup failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper
+
+Also teardown failed:
+
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</status>
+</test>
+<doc>Suíte de testes de login</doc>
+<status status="FAIL" start="2025-10-12T15:28:47.334826" elapsed="0.484693"/>
+</suite>
+<status status="FAIL" start="2025-10-12T15:28:47.314682" elapsed="0.524615"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="5" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="5" skip="0">Tests</stat>
+<stat name="Login" id="s1-s1" pass="0" fail="5" skip="0">Tests.Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-12T15:28:47.575321" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: 
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<msg time="2025-10-12T15:28:47.636760" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: 
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<msg time="2025-10-12T15:28:47.697142" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: 
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<msg time="2025-10-12T15:28:47.758364" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: 
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<msg time="2025-10-12T15:28:47.818230" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: 
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+<msg time="2025-10-12T15:28:47.838212" level="ERROR">Calling method '_end_suite' of listener 'Browser' failed: 
+#############################################################
+#                                                           #
+#  RF-Browser dependencies not found in installation path!  #
+#           Run `rfbrowser init` to install.                #
+#                                                           #
+#############################################################
+Installation path: c:\QAx\projects\.venv\Lib\site-packages\Browser\wrapper</msg>
+</errors>
+</robot>
