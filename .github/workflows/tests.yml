@@ -28,7 +28,10 @@ jobs:
       with:
         python-version: 3.13
 
-    - name: Test
+    - name: Install Deps
       run: |
-        node --version
-        python --version
+        pyhton -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Browser init
+      run: rfbrowser init
